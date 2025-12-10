@@ -1,0 +1,39 @@
+1. Total Sales
+Total Sales =
+SUM(Sales[SalesAmount])
+
+2. Total Quantity
+Total Quantity =
+SUM(Sales[Quantity])
+
+3. Total Cost
+Total Cost =
+SUM(Sales[Cost])
+
+4. Profit
+Profit =
+[Total Sales] - [Total Cost]
+
+5. Profit Margin %
+Profit Margin % =
+DIVIDE([Profit], [Total Sales])
+
+6. Average Order Value (AOV)
+AOV =
+DIVIDE([Total Sales], DISTINCTCOUNT(Sales[OrderID]))
+
+7. Total Customers
+Total Customers =
+DISTINCTCOUNT(Sales[CustomerID])
+
+8. Sales LY (Last Year)
+Sales LY =
+CALCULATE([Total Sales], DATEADD(Date[Date], -1, YEAR))
+
+9. YoY Growth %
+YoY Growth % =
+DIVIDE([Total Sales] - [Sales LY], [Sales LY])
+
+10. Sales Target Achievement %
+Sales Target Achievement % =
+DIVIDE([Total Sales], SUM(Targets[TargetAmount]))
