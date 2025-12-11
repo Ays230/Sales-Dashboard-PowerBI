@@ -1,22 +1,22 @@
 # 📊 Sales Dashboard – Power BI Project
 
-Bu layihə real satış məlumatları əsasında hazırlanmış interaktiv **Power BI Sales Dashboard**-udur. Dashboard satış performansını müxtəlif kəsimlər üzrə analiz etməyə, trendləri görməyə və daha dəqiq biznes qərarları qəbul etməyə imkan yaradır.
+This project is an interactive **Power BI Sales Dashboard** built using real sales data. The dashboard allows users to analyze sales performance across different dimensions, observe trends, and make more informed business decisions.
 
 ---
 
-## 🚀 Layihənin Məqsədi
+## 🚀 Project Purpose
 
-Bu layihənin əsas məqsədi satış məlumatlarını vizuallaşdırmaq və aşağıdakı əsas suallara cavab tapmaqdır:
+The main goal of this project is to visualize sales data and answer key business questions such as:
 
-* **Satışların illər üzrə dəyişikliyi nədir?**
-* **Aylıq satışlarda hansı trend müşahidə olunur?**
-* **Hansı satış növü daha çox gəlir gətirib?**
-* **Ödəniş üsullarının pay bölgüsü necədir?**
-* **Ən çox satılan məhsul və kateqoriya hansıdır?**
+* **How have sales changed year over year?**
+* **What trends can be observed in monthly sales?**
+* **Which sales type generates the highest revenue?**
+* **How are payment methods distributed?**
+* **Which product and category have the highest sales?**
 
 ---
 
-## 📁 Layihə Strukturu
+## 📁 Project Structure
 
 ```
 Sales-Dashboard-PowerBI/
@@ -35,20 +35,19 @@ Sales-Dashboard-PowerBI/
 
 ---
 
-## 📈 Dashboarddan Əsas Tapıntılar
+## 📈 Key Insights from the Dashboard
 
-* **Satışlar 2022-ci ildə 2021-lə müqayisədə artım göstərib.**
-* **Aylıq satış trendlərində müəyyən dövrlərdə artım müşahidə olunur.**
-* **Direct Sales satış növü ümumi satışlarda ən yüksək paya malikdir.**
-* **Nəğd və onlayn ödənişlər arasında balans mövcuddur, lakin nəğd ödənişlərin payı daha yüksəkdir.**
-* **Top məhsullar və kateqoriyalar ümumi satış nəticələrinə əhəmiyyətli dərəcədə təsir göstərir.**
+* **Sales increased in 2022 compared to 2021.**
+* **There are noticeable upward trends in monthly sales during certain periods.**
+* **Direct Sales is the sales type with the highest overall share.**
+* **There is a balance between cash and online payments, though cash payments have a slightly higher share.**
+* **Top products and categories significantly influence overall sales performance.**
 
 ---
 
-## 🛠 İstifadə Edilən Alətlər
+## 🛠 Tools Used
 
 * **Power BI Desktop**
-* **Excel (məlumatların emalı üçün)**
-* **DAX (ölçmələrin yaradılması üçün)**
-
+* **Excel (for data preparation)**
+* **DAX (for creating measures)**
 
